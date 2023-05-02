@@ -22,7 +22,7 @@ int main(void)
 		printf("Error\n");
 		return (1);
 	}
-	new->n = 9;
+	new->i = 9;
 	new->next = head;
 	head = new;
 	i = print_listint(head);
